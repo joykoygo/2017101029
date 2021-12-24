@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문해력 키우기</title>
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        body{
+            background-color: #FFFBEE;
+        }
+    </style>
+    <style type="text/css">
+        a:link {
+            color: #707070; text-decoration: none;
+        }
+        a:visited {
+            color: #707070; text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <nav>
+          <a href="#" class="logo"><img src="./image/logo.jpg" alt="logo"></a>
+          <ul>
+            <li><a href="javascript:()" onclick="showpopup();">구독</a></li>
+            <li><a href="./sub.html">문해력 알기</a></li>
+            <li><a href="./index.html">문해력 기르기</a></li>
+          </ul>
+          </nav>
+      </header>
+
+
+
+<section>
+    <div class="main_backtitle1">
+        <div class="subtitle1"><strong>문해력!</strong></div>
+        <div class="subtitle2"><strong>어렵지 않아요!</strong></div>
+        <div class="titletext1">어려운 단어나 문장을<br>
+            잘못 해석해 곤란했던<br>
+            경험이 있나요?<br>
+            어휘의 차이는<br>
+            <strong>문해력</strong>에서부터 시작됩니다!</div>
+    </div>
+
+
+
+    <div class="main_title1">
+        <div class="subtitle1"><strong>문해력</strong></div>
+        <div class="subtitle2"><strong>알아보기</strong></div>
+        <div class="img1"><img src="./image/icon1.png" width="358px" height="358px"/></div>
+    </div>
+   
+
+
+
+    <div class="main_text1">
+        <div class="m_text1_prop1"><strong>문해력이란?</strong></div>
+        <div class="m_text1_prop2"><strong>문장을 읽고 해석하는 능력!</strong></div>
+        <div class="m_text1_prop3">문어체와 구어체의 차이를 이해하고<br>올바른 언어습관과 지식을 쌓는다!</div>
+        
+        <div class="m_text1_prop4"><strong>문해력이 높아지면..</strong></div>
+
+            
+            <div class="mtextprop5">
+
+                <div id="m_t1">
+                    <img src="./image/icon2.png" width="400px" height="400px"/>
+                    <div class="ddd">
+                        <h3>문장해석능력</h3>
+                        <p>각종 교재, 서적에 대한<br>이해능력 향상</p>
+                    </div>
+                    
+                </div>
+
+                
+                <div id="m_t3">
+                    <img src="./image/icon3.png" width="400px" height="400px"/>
+                    <div class="ddd2">
+                        <h3>구어체와 문어체 구분</h3>
+                        <p>문장의 용도에 따른</br>의미 파악</p>
+                    </div>             
+                </div>
+                    
+
+                <div id="m_t5">
+                    
+                    <img src="./image/icon4.png" width="400px" height="400px"/>
+                    <div class="ddd3">
+                        <h3>어휘향상</h3>
+                        <p>실생활에 쓰이는 문어체,<br>어려운 단어 이해!</p>
+                    </div>
+                </div>
+            </div>
+            
+
+
+    </div>
+
+
+
+
+
+
+    <div class="main_title2">
+        <div class="subtitle1"><strong>어떻게</strong></div>
+        <div class="subtitle2"><strong>해야할까?</strong></div>
+        <div class="img2"><img src="./image/icon12.png" width="1200px" height="957px"/></div>
+    </div>
+
+
+    <div class="main_text2">     
+        <div id="m_t7"><strong>문해력 기르기는</strong></div>
+        <div id="m_t8">직접 실천하는 <strong>외부적 방법</strong>과</div>
+        <div id="m_t9">꾸준히 생각하는 <strong>내부적 방법</strong>이 있다!</div>
+        <div id="img3"><img src="./image/icon6.png" width="400px" height="400px"/></div>  
+        <div id="m_t10">독서, 글쓰기 등</div>
+        <div id="m_t11">다양한 <strong>실천방법</strong>과 <strong>예시문장</strong>을 통해 </div>
+        <div id="m_t12"><strong>문해력을 키워봐요!</strong></div>
+        <div id="m_b1"><a href="./sub.html"><input type=button style="width: 260px; height: 76px; background-color: white; font-size: 30px; color: #707070;" value="예시문장 보기"></a></div>
+        <div id="m_b2"><a href="./sub.html"><input type=button style="width: 260px; height: 76px; background-color: white; font-size: 30px; color: #707070;" value="실천방법 보기"></a></div>
+        <footer>made by Kang jeonsu, web media design class, 2021</footer>
+    </div>
+</section>
+
+
+<!-- begin popup -->
+
+<div class="popup" id="popup">
+    <div class="blanket"></div>
+    <div class="content">
+      <h2>문해력에 대해 더 알고싶다면?</h2>
+      <form action="">
+        <div class="row">
+          <div class="item">
+            <input type="text" placeholder="이름">
+          </div>  
+          <div class="item">  
+            <input type="text" placeholder="이메일 주소 입력">
+          </div>
+        </div>
+        <div class="linktext">
+            <a href="https://home.ebs.co.kr/yourliteracy/replay/4/list?courseId=10210094&stepId=20011339">"EBS 당신의 문해력 보러가기"</a>
+        </div>
+        <button class="signup" onclick="hidePopup();">보러가기</button>
+        <button class="close" onclick="hidePopup();"></button>  
+      </form>
+   
+    </div>
+  </div>
+  
+  <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
+
